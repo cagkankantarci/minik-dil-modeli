@@ -47,10 +47,11 @@ Videodaki diğer ölçümler:
 | | Mac | Windows laptop |
 |---|---|---|
 | Donanım | Apple M4 (MPS) | GTX 1050 Ti (CUDA 12.6) |
-| 5.000 adım | 297 sn | ölçüm geçersiz* |
+| 5.000 adım | 297 sn (4 dk 57 sn) | 620 sn (10 dk 20 sn)* |
+| Adım başı | 59 ms | 124 ms |
 | Son validation loss | 1,6952957 | 1,6952961 |
 
-\* Laptopun ekran kartı eğitim sırasında başka bir işle paylaşıldığı için süre karşılaştırması adil olmadı. Loss değerleri ilk beş haneye kadar aynı.
+\* Videodaki ilk ölçümde laptopun ekran kartı başka bir işle meşguldü (41 dk, `sonuc/laptop-cuda/`). Kart boşken tekrarlanan ölçüm: 620 sn (`sonuc/laptop-cuda-bos/`). Bu boyuttaki modelde Apple M4 yaklaşık 2,1 kat daha hızlı. Loss değerleri ilk beş haneye kadar aynı.
 
 - Validation loss 3.700. adımda en düşük (1,616), 5.000. adımda 1,695: model ezberlemeye başlıyor (overfitting).
 - Cemşit testi: minik model 3 denemede de "Ağa"yı bulamadı (`sonuc/cemsit/minik.json`). Aynı cümle Claude Code'a (`claude -p`, "devamını yaz") 3 kez verildi, 3'ünde de "Ağa" ile devam etti (`sonuc/cemsit/claude.json`).
