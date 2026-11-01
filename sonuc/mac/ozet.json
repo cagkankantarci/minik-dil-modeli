@@ -1,0 +1,25 @@
+{
+  "cihaz": "mps",
+  "gpu": "Apple M4",
+  "torch": "2.15.0",
+  "parametre": 3237977,
+  "adim": 5000,
+  "egitim_suresi_sn": 297.2,
+  "adim_basi_ms": 59.43,
+  "son_dogrulama_kaybi": 1.6952957034111023,
+  "ayarlar": {
+    "veri": "veri/temiz.txt",
+    "cikti": "sonuc/mac",
+    "cihaz": "mps",
+    "adim": 5000,
+    "katman": 4,
+    "kafa": 4,
+    "boyut": 256,
+    "baglam": 128,
+    "yigin": 32,
+    "oran": 0.0003,
+    "ornek_adimlari": "0,100,500,1000,2000,5000",
+    "baslangic": "Bir gün",
+    "tohum": 1337
+  }
+}

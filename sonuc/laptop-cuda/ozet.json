@@ -1,0 +1,25 @@
+{
+  "cihaz": "cuda",
+  "gpu": "NVIDIA GeForce GTX 1050 Ti",
+  "torch": "2.14.1+cu126",
+  "parametre": 3237977,
+  "adim": 5000,
+  "egitim_suresi_sn": 2473.3,
+  "adim_basi_ms": 494.66,
+  "son_dogrulama_kaybi": 1.6952960729598998,
+  "ayarlar": {
+    "veri": "veri/temiz.txt",
+    "cikti": "sonuc/laptop-cuda",
+    "cihaz": "cuda",
+    "adim": 5000,
+    "katman": 4,
+    "kafa": 4,
+    "boyut": 256,
+    "baglam": 128,
+    "yigin": 32,
+    "oran": 0.0003,
+    "ornek_adimlari": "0,100,500,1000,2000,5000",
+    "baslangic": "Bir gün",
+    "tohum": 1337
+  }
+}
